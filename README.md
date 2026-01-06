@@ -110,6 +110,7 @@ Model eğitimi tamamlandıktan sonra elde edilen son metrikler:
 Modelin yapısı Netron aracılığıyla görselleştirilmiştir:
 
 <img width="181" height="663" alt="NetronGrafik" src="https://github.com/user-attachments/assets/ff9c81e8-0ab7-4a00-9f32-87a03f836ece" />
+<img width="132" height="335" alt="NetronGrafik2" src="https://github.com/user-attachments/assets/f5058577-9f0a-460b-b07c-9a418e7df57e" />
 
 
 
