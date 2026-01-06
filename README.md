@@ -3,7 +3,7 @@
 Bu repo, **Sinir Ağları** dersi kapsamında hazırlanan final projesine aittir. Projede, Kaggle üzerinden alınan LEGO parça görselleri kullanılarak bir Derin Öğrenme (CNN) modeli eğitilmiştir. Model, farklı LEGO parçalarını otomatik olarak sınıflandırmayı amaçlamaktadır. Tüm kodlar, model mimarisi, eğitim süreci ve sonuçlar bu README dosyasında açıklanmaktadır.
 
 ## Proje Ekibi
-- **Rauf Nuriyev**
+- **RAUF NURIYEV**
 
 ## Veri Seti Açıklaması
 
@@ -158,3 +158,79 @@ Modelin yapısı Netron aracılığıyla görselleştirilmiştir:
 ### Gereksinimler:
 ```bash
 pip install -r requirements.txt
+
+Modeli Eğitmek:
+python main.py
+
+Bu komut:
+
+Veri setini yükler ve augmentation uygular
+
+Modeli oluşturur ve eğitir
+
+Eğitim grafiklerini kaydeder
+
+Modeli gelismis_lego_modeli.h5 olarak kaydeder
+
+Model Dosyası Notu:
+gelismis_lego_modeli.h5 dosyası boyutu nedeniyle bu repoda bulunmamaktadır. Ancak main.py dosyasını çalıştırarak modeli sıfırdan eğitebilir ve aynı dosyayı oluşturabilirsiniz. Eğitim yaklaşık 15-20 dakika sürmektedir.
+LEGO_CNN_Project/
+│
+├── archive/                              # LEGO veri seti (Kaggle'dan indirilmeli)
+│   ├── 3001/                             # Sınıf 1: 2x4 Brick
+│   ├── 3002/                             # Sınıf 2: 2x3 Brick
+│   └── ...                               # Diğer LEGO parça sınıfları
+│
+├── main.py                               # Ana eğitim scripti
+├── requirements.txt                      # Python bağımlılıkları
+├── gelismis_lego_modeli.h5              # Eğitilmiş model (oluşturulacak)
+├── basari_grafigi.png                   # Eğitim grafikleri
+├── Ekran-şəkli-2026-01-06-163459.png    # Netron görseli - Bölüm 1
+├── Ekran-şəkli-2026-01-06-163524.png    # Netron görseli - Bölüm 2
+└── README.md                            # Bu dosya
+
+
+Sonuç ve Değerlendirme
+Başarılı Yönler:
+Yüksek Doğruluk: %92 test doğruluğu ile başarılı sınıflandırma
+
+İyi Genelleme: Eğitim-test farkının düşük olması
+
+Modern Teknikler: BatchNormalization, Data Augmentation, EarlyStopping
+
+Derin Mimarİ: 4 katmanlı CNN ile kompleks özellikler öğrenilmiştir
+
+Teknik Katkılar:
+BatchNormalization: Öğrenmeyi hızlandırmış ve stabilize etmiştir
+
+Data Augmentation: Sınırlı veriyle daha robust model oluşturulmuştur
+
+EarlyStopping: Overfitting riski minimize edilmiştir
+
+Dropout: Regularization sağlanmıştır
+
+Pratik Uygulama Alanları:
+LEGO Fabrikaları: Otomatik kalite kontrol ve sınıflandırma
+
+LEGO Kütüphaneleri: Parça envanter yönetimi
+
+E-ticaret: LEGO parça tanıma sistemleri
+
+Eğitim: Görsel tanıma eğitim materyali
+
+Zorluklar ve Çözümler
+Zorluk	Çözüm
+Sınırlı veri seti	Data Augmentation teknikleri
+Overfitting riski	Dropout + EarlyStopping
+Eğitim süresi	BatchNormalization ile hızlandırma
+Model karmaşıklığı	4 bloklu optimize mimari
+Gelecek Çalışmalar
+Transfer Learning: ResNet, VGG gibi önceden eğitilmiş modeller
+
+Hyperparameter Tuning: Grid search ile optimal parametreler
+
+Daha Büyük Veri Seti: Daha fazla LEGO parça çeşidi
+
+Real-time Sınıflandırma: Web kamerası ile canlı test
+
+
