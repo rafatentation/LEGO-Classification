@@ -112,6 +112,8 @@ Modelin yapısı Netron aracılığıyla görselleştirilmiştir:
 <img width="132" height="540" alt="Ekran şəkli 2026-01-06 163524" src="https://github.com/user-attachments/assets/17179191-a258-4312-8b7e-1ec4d74101ff" />
 
 
+
+
 ### Netron Görseli Detaylı Açıklaması:
 
 #### 1. Giriş ve İlk Katmanlar (İlk Görsel):
