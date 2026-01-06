@@ -72,9 +72,10 @@ Kullanılan CNN modeli aşağıdaki katmanlardan oluşmaktadır:
 3. **BatchNormalization:** Tüm konvolüsyon katmanlarından sonra
 
 ### Eğitim Grafikleri
+<img width="1200" height="400" alt="basari_grafigi" src="https://github.com/user-attachments/assets/614204a4-d0c4-4fb3-8479-d05d46270c24" />
 
 #### Grafik 1: Model Doğruluk Oranı (Accuracy)
-![Model Doğruluk Oranı](basari_grafigi.png)
+![Model Doğruluk Oranı]
 
 *Grafik Analizi:*
 - **Eğitim Başarısı:** Modelin eğitim verisi üzerindeki doğruluk oranı ~%95'e ulaşmıştır
@@ -82,7 +83,7 @@ Kullanılan CNN modeli aşağıdaki katmanlardan oluşmaktadır:
 - **Değerlendirme:** Eğitim ve test doğrulukları arasındaki küçük fark (~%3), modelin iyi genelleme yaptığını göstermektedir
 
 #### Grafik 2: Model Kayıp Oranı (Loss)
-![Model Kayıp Oranı](basari_grafigi.png)
+![Model Kayıp Oranı]
 
 *Grafik Analizi:*
 - **Eğitim Kaybı:** 0.25 seviyesine düşmüştür
