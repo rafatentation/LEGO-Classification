@@ -108,8 +108,8 @@ Model eğitimi tamamlandıktan sonra elde edilen son metrikler:
 ## Netron ile Model Görselleştirme
 
 Modelin yapısı Netron aracılığıyla görselleştirilmiştir:
-<img width="181" height="663" alt="Ekran şəkli 2026-01-06 163459" src="https://github.com/user-attachments/assets/cee1c587-e711-4175-8ff7-d009ddf905cb" />
-<img width="132" height="540" alt="Ekran şəkli 2026-01-06 163524" src="https://github.com/user-attachments/assets/17179191-a258-4312-8b7e-1ec4d74101ff" />
+
+<img width="181" height="663" alt="NetronGrafik" src="https://github.com/user-attachments/assets/ff9c81e8-0ab7-4a00-9f32-87a03f836ece" />
 
 
 
