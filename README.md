@@ -9,6 +9,7 @@ Bu repo, **Sinir Ağları** dersi kapsamında hazırlanan final projesine aittir
 
 **Veri Seti Adı:** LEGO Parts Dataset  
 **Kaynak:** https://www.kaggle.com/datasets/ihelon/lego-minifigures-classification?select=test
+
 **Açıklama:**  
 Bu veri seti, farklı türdeki LEGO parçalarının görsellerini içermektedir. Her sınıf belirli bir LEGO parça türünü temsil etmektedir. Veri seti, modelin farklı açı, ışık ve pozisyonlardaki LEGO parçalarını tanımayı öğrenmesi için kullanılmıştır.
 
@@ -232,6 +233,7 @@ Hyperparameter Tuning: Grid search ile optimal parametreler
 Daha Büyük Veri Seti: Daha fazla LEGO parça çeşidi
 
 Real-time Sınıflandırma: Web kamerası ile canlı test
+
 
 
 
