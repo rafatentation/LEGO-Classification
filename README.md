@@ -186,8 +186,8 @@ LEGO_CNN_Project/
 ├── requirements.txt                      # Python bağımlılıkları
 ├── gelismis_lego_modeli.h5              # Eğitilmiş model (oluşturulacak)
 ├── basari_grafigi.png                   # Eğitim grafikleri
-├── Ekran-şəkli-2026-01-06-163459.png    # Netron görseli - Bölüm 1
-├── Ekran-şəkli-2026-01-06-163524.png    # Netron görseli - Bölüm 2
+├── NetronGrafik.png
+├── NetronGrafik2.png
 └── README.md                            # Bu dosya
 
 
@@ -233,6 +233,7 @@ Hyperparameter Tuning: Grid search ile optimal parametreler
 Daha Büyük Veri Seti: Daha fazla LEGO parça çeşidi
 
 Real-time Sınıflandırma: Web kamerası ile canlı test
+
 
 
 
