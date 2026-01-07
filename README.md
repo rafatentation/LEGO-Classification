@@ -7,7 +7,7 @@ Bu repo, **Sinir Ağları** dersi kapsamında hazırlanan final projesine aittir
 
 ## Veri Seti Açıklaması
 
-**Veri Seti Adı:** LEGO Parts Dataset  
+**Veri Seti Adı:** LEGO Minifigures Dataset  
 **Kaynak:** https://www.kaggle.com/datasets/ihelon/lego-minifigures-classification?select=test
 
 **Açıklama:**  
@@ -233,6 +233,7 @@ Hyperparameter Tuning: Grid search ile optimal parametreler
 Daha Büyük Veri Seti: Daha fazla LEGO parça çeşidi
 
 Real-time Sınıflandırma: Web kamerası ile canlı test
+
 
 
 
